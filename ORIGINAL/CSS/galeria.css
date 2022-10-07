@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h6{
+padding: 20px;
+font-family: monospace;
+font-size: 36px;
+margin: 0px;
+text-align: center;
+padding: 22px;
+background-color: rgb(3, 254, 254);
+color: rgb(0, 94, 255);
+}
+
+h6:hover{
+color: rgb(255, 153, 0);
+font-style: verdana;
+background-color: rgb(85, 78, 78);
+transition-delay: 1,4s;
+transition-duration: 5s;}
+
+#accion{
+font-style: oblique;
+color: rgb(241, 237, 237);
+background-color: rgb(254, 0, 0);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.PLANETAS img{
+width: 500px;
+height: 500px;
+border-radius: 9%;
+margin: 30px;
+padding: 30px;
+}
+
+#FOTOS{
+background-color: rgb(51, 0, 255);
+display: flex;
+flex-wrap: wrap-reverse;
+padding: 0px;
+margin: 0px;
+}
+
+h5{
+background-color: blue;
+color: aqua;
+padding: 30px;
+margin: 10px;
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 77px;
+
+}
+
+h5:hover{
+background-color: rgb(255, 0, 0);
+transition: 1,4s;
+transition-duration: 5s;
+transition-delay: 1,4s;
+text-align: end;
+}
