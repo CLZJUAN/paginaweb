@@ -10,24 +10,28 @@ nombre.style.border = "36px";
 nombre.style.padding = "30px"
 nombre.style.margin = "22px";
 nombre.style.backgroundColor = "violet";
+nombre.style.fontSize = "23px";
 
 apellido.style.color = "green";
 apellido.style.border = "40px";
 apellido.style.padding = "30px";
 apellido.style.backgroundColor = "orange"
 apellido.style.margin = "22px";
+apellido.style.fontSize = "23px";
 
 numero.style.color = "green";
 numero.style.border = "40px";
 numero.style.padding = "30px";
 numero.style.backgroundColor = "yellow";
 numero.style.margin = "22px";
+numero.style.fontSize = "23px";
 
 correo.style.color = "green";
 correo.style.border = "40px";
 correo.style.padding = "30px";
 correo.style.backgroundColor = "black";
 correo.style.margin = "22px";
+correo.style.fontSize = "23px";
 
 enviar.style.border = "40px";
 enviar.style.padding = "80px";
