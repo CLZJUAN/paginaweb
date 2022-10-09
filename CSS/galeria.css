@@ -24,7 +24,7 @@ transition-delay: 1,4s;
 transition-duration: 5s;}
 
 #accion{
-font-style: oblique;
+font-style: none;
 color: rgb(241, 237, 237);
 background-color: rgb(254, 0, 0);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
