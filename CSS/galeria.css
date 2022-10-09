@@ -13,6 +13,7 @@ text-align: center;
 padding: 22px;
 background-color: rgb(3, 254, 254);
 color: rgb(0, 94, 255);
+text-decoration: none;
 }
 
 h6:hover{
@@ -27,6 +28,7 @@ font-style: oblique;
 color: rgb(241, 237, 237);
 background-color: rgb(254, 0, 0);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
 }
 
 .PLANETAS img{
