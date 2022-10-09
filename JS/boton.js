@@ -36,7 +36,7 @@ correo.style.margin = "22px";
 correo.style.fontSize = "23px";
 
 reset.style.border = "70px";
-reset.style.padding = "30px";
+reset.style.padding = "20px";
 reset.style.backgroundColor = "black";
 reset.style.margin = "5px";
 reset.style.color ="azure";
