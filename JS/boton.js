@@ -48,3 +48,34 @@ reset.style.margin = "22px";
 reset.style.color ="azure"
 reset.style.fontSize = "36px"
 reset.style.borderRadius = "9%";
+
+function validar() {
+let nombre;
+let = document.getElementById('nombre').value;
+let = document.getElementById('numero').value;
+let = document.getElementById('correo').value
+
+if (nombre === " ") {
+    alert("no se registro ningun dato intente nuevamente")
+    return false;
+}
+
+if (apellido === " ") {
+    alert("no valido")
+    return false;
+    
+}
+
+if (numero === " ") {
+    alert("no se registro ningun numero")
+    return false;
+    
+}
+
+if (correo === " ") {
+    alert("intente denuevo")
+    return false;
+    
+}
+
+}
