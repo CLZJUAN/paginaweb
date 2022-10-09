@@ -23,7 +23,7 @@ apellido.style.fontSize = "23px";
 
 numero.style.color = "green";
 numero.style.border = "20px";
-numero.style.padding = "30px";
+numero.style.padding = "20px";
 numero.style.backgroundColor = "yellow";
 numero.style.margin = "5px";
 numero.style.fontSize = "23px";
@@ -47,39 +47,8 @@ reset.style.border = "70px";
 reset.style.padding = "20px";
 reset.style.backgroundColor = "black";
 reset.style.margin = "22px";
-reset.style.color ="azure"
-reset.style.fontSize = "36px"
+reset.style.color ="azure";
+reset.style.fontSize = "36px";
 reset.style.borderRadius = "9%";
 
 
-function validacion() {
-let nombre;
-let = document.getElementById('nombre').value;
-let = document.getElementById('numero').value;
-let = document.getElementById('correo').value;
-
-
-if (nombre === " ") {
-    alert("no se registro ningun dato intente nuevamente")
-    return false;
-}
-
-if (apellido === " ") {
-    alert("no valido")
-    return false;
-    
-}
-
-if (numero === " ") {
-    alert("no se registro ningun numero")
-    return false;
-    
-}
-
-if (correo === " ") {
-    alert("intente denuevo")
-    return false;
-    
-}
-
-}
