@@ -59,19 +59,22 @@ function transmitiendo(){
 
 let corrupto =[];
 
-if (nombre.value === null | nombre.value === ""){
+if (nombre.value === null | nombre.value === " "){
     corrupto.push("campo vacio rrellenar datos");}
 
-if (apellido.value === null | apellido.value === ""){
+if (apellido.value === null | apellido.value === " "){
     corrupto.push("campo vacio rrellenar datos");}
 
 if (numero.value === null | numero.value === "[a-zA-Z]") {
     corrupto.push("LETRAS INVALIDO");
 
-   
-faltandatos.innerHTML =corrupto.join(", ")
+if (correo.value === null | correo.value ===" ") {
+    corrupto,push("email invalid");
+    
+}
+
+faltandatos.innerHTML =corrupto.join(", ");
 
 return false;
 }
 
-}
