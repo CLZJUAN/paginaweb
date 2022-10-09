@@ -53,7 +53,7 @@ function validar() {
 let nombre;
 let = document.getElementById('nombre').value;
 let = document.getElementById('numero').value;
-let = document.getElementById('correo').value
+let = document.getElementById('correo').value;
 
 if (nombre === " ") {
     alert("no se registro ningun dato intente nuevamente")
