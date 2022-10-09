@@ -35,21 +35,21 @@ correo.style.backgroundColor = "black";
 correo.style.margin = "22px";
 correo.style.fontSize = "23px";
 
+enviar.style.border = "40px";
+enviar.style.padding = "20px";
+enviar.style.backgroundColor = "black";
+enviar.style.margin = "22px";
+enviar.style.color = "azure"
+enviar.style.fontSize = "36px"
+enviar.style.borderRadius = "9%";
+
 reset.style.border = "70px";
 reset.style.padding = "20px";
 reset.style.backgroundColor = "black";
-reset.style.margin = "5px";
-reset.style.color ="azure";
-reset.style.fontSize = "36px";
+reset.style.margin = "22px";
+reset.style.color ="azure"
+reset.style.fontSize = "36px"
 reset.style.borderRadius = "9%";
-
-enviar.style.border = "40px";
-enviar.style.padding = "20px";
-enviar.style.backgroundColor = "red";
-enviar.style.margin = "5px";
-enviar.style.color = "azure";
-enviar.style.fontSize = "36px";
-enviar.style.borderRadius = "9%";
 
 
 function validacion() {
