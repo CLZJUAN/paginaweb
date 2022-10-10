@@ -18,7 +18,7 @@ nombre.style.fontSize = "23px";
 apellido.style.color = "green";
 apellido.style.border = "20px";
 apellido.style.padding = "20px";
-apellido.style.backgroundColor = "orange"
+apellido.style.backgroundColor = "orange";
 apellido.style.margin = "5px";
 apellido.style.fontSize = "23px";
 
@@ -52,7 +52,7 @@ reset.style.color ="azure";
 reset.style.fontSize = "36px";
 reset.style.borderRadius = "9%";
 
-faltandatos.style.color = "fuccia";
+faltandatos.style.color = "yellow";
 
 let forms = document.getElementById("formularioss");
 forms.addEventListener("submit" ,function(evt){
