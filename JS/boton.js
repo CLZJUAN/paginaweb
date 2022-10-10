@@ -52,13 +52,14 @@ reset.style.color ="azure";
 reset.style.fontSize = "36px";
 reset.style.borderRadius = "9%";
 
-faltandatos.style.color = "rose";
+faltandatos.style.color = "fuccia";
 
 
 
 let forms = document.getElementById("formularioss");
-forms.addEventListener("submit" ,function (evt) {
-console.log("enviando..");
+forms.addEventListener("submit" ,function (evt){
+evt.preventDefault();
+
 
 let corrupto =[];
 
