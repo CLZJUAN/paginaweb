@@ -54,8 +54,8 @@ reset.style.borderRadius = "9%";
 
 faltandatos.style.color = "fuccia";
 
-let form = document.getElementById("formularioss");
-form.addEventListener("submit" ,function(evt){
+let forms = document.getElementById("formularioss");
+forms.addEventListener("submit" ,function(evt){
     evt.preventDefault();
     console.log("exitoso se esta enviando");
 
