@@ -1,12 +1,12 @@
 "use stric"
 
-let = document.getElementById('nombre');
-let = document.getElementById('apellido');
-let = document.getElementById('numero');
-let = document.getElementById('correo');
-let = document.getElementById('envio');
-let = document.getElementById('reset');
-let = document.getElementById('faltandatos');
+let = document.getElementById("nombre");
+let = document.getElementById("apellido");
+let = document.getElementById("numero");
+let = document.getElementById("correo");
+let = document.getElementById("envio");
+let = document.getElementById("reset");
+let = document.getElementById("faltandatos");
 
 nombre.style.color = "red";
 nombre.style.border = "40px";
@@ -52,7 +52,7 @@ reset.style.color ="azure";
 reset.style.fontSize = "36px";
 reset.style.borderRadius = "9%";
 
-faltandatos.style.color = "red";
+faltandatos.style.color = "fuccia";
 
 
 
@@ -84,5 +84,3 @@ if (numero.value === null | numero.value === "[a-zA-Z]") {
     
     faltandatos.innerHTML =corrupto.join(", ");
 });
-
-
