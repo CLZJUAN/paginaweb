@@ -18,7 +18,7 @@ nombre.style.fontSize = "23px";
 apellido.style.color = "green";
 apellido.style.border = "20px";
 apellido.style.padding = "20px";
-apellido.style.backgroundColor = "orange";
+apellido.style.backgroundColor = "orange"
 apellido.style.margin = "5px";
 apellido.style.fontSize = "23px";
 
@@ -52,30 +52,37 @@ reset.style.color ="azure";
 reset.style.fontSize = "36px";
 reset.style.borderRadius = "9%";
 
-faltandatos.style.color = "yellow";
+faltandatos.style.color = "red";
+
+
 
 let forms = document.getElementById("formularioss");
-forms.addEventListener("submit" ,function(evt){
-    evt.preventDefault();
-    console.log("exitoso se esta enviando");
+forms.addEventListener("submit" ,function (evt) {
+console.log("enviando..");
 
-    let corrupto =[];
+let corrupto =[];
 
-    if (nombre.value === null | nombre.value === ""){
-        corrupto.push("campo vacio rrellenar datos"); 
-    }
-    if (apellido.value === null | apellido.value === ""){
-        corrupto.push("campo vacio rrellenar datos");
-    }
-    if (numero.value === null | numero.value === "[a-zA-Z]"){
-        corrupto.push("LETRAS INVALIDO");
-    }
-    if (correo.value === null | correo.value ===" ") {
-        corrupto,push("email invalid");
-    }
-    faltandatos.innerHTML =corrupto.join(", ");
-}
+if (nombre.value === null | nombre.value === " ") {
+corrupto.push("nombre no valido");
     
+}
 
+if (apellido.value === null | apellido.value === " ") {
+corrupto.push("apellido no valido");
+    
+}
+
+if (numero.value === null | numero.value === "[a-zA-Z]") {
+    corrupto.push("NO SE ADMITEN LETRAS")
+    
+}
+
+ if (correo.value === null | correo.value === " " ) {
+    corrupto.push("correo invalido");
+    
+ }
+    
+    faltandatos.innerHTML =corrupto.join(", ");
+});
 
 
