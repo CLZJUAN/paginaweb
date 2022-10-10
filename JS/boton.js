@@ -62,18 +62,19 @@ forms.addEventListener("submit" ,function(evt){
     let corrupto =[];
 
     if (nombre.value === null | nombre.value === ""){
-        corrupto.push("campo vacio rrellenar datos");}
-    
+        corrupto.push("campo vacio rrellenar datos"); 
+    }
     if (apellido.value === null | apellido.value === ""){
-        corrupto.push("campo vacio rrellenar datos");}
-    
+        corrupto.push("campo vacio rrellenar datos");
+    }
     if (numero.value === null | numero.value === "[a-zA-Z]"){
-        corrupto.push("LETRAS INVALIDO");}
-    
+        corrupto.push("LETRAS INVALIDO");
+    }
     if (correo.value === null | correo.value ===" ") {
-        corrupto,push("email invalid");}
-    
+        corrupto,push("email invalid");
+    }
     faltandatos.innerHTML =corrupto.join(", ");
+}
     
 
 
