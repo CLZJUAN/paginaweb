@@ -54,27 +54,29 @@ reset.style.borderRadius = "9%";
 
 faltandatos.style.color = "fuccia";
 
-function transmitiendo(){
-    console.log("exito");
+let formula = document.getElementById("formularioss");
+formula.addEventListener("submit" ,function(evt){
+    evt.preventDefault();
+    console.log("exitoso se esta enviando");
 
-let corrupto =[];
+    let corrupto =[];
 
-if (nombre.value === null | nombre.value === " "){
-    corrupto.push("campo vacio rrellenar datos");}
-
-if (apellido.value === null | apellido.value === " "){
-    corrupto.push("campo vacio rrellenar datos");}
-
-if (numero.value === null | numero.value === "[a-zA-Z]"){
-    corrupto.push("LETRAS INVALIDO");
-
-if (correo.value === null | correo.value ===" ") {
-    corrupto,push("email invalid");
+    if (nombre.value === null | nombre.value === ""){
+        corrupto.push("campo vacio rrellenar datos");}
+    
+    if (apellido.value === null | apellido.value === ""){
+        corrupto.push("campo vacio rrellenar datos");}
+    
+    if (numero.value === null | numero.value === "[a-zA-Z]"){
+        corrupto.push("LETRAS INVALIDO");
+    
+    if (correo.value === null | correo.value ===" ") {
+        corrupto,push("email invalid");
+        
+    }
+    
+    faltandatos.innerHTML =corrupto.join(", ");
     
 }
 
-faltandatos.innerHTML =corrupto.join(", ");
-
-return false;
-}
 
