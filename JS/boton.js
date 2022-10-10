@@ -4,7 +4,7 @@ let = document.getElementById('nombre');
 let = document.getElementById('apellido');
 let = document.getElementById('numero');
 let = document.getElementById('correo');
-let = document.getElementById('enviar');
+let = document.getElementById('envio');
 let = document.getElementById('reset');
 let = document.getElementById('faltandatos');
 
@@ -36,13 +36,13 @@ correo.style.backgroundColor = "black";
 correo.style.margin = "5px";
 correo.style.fontSize = "23px";
 
-enviar.style.border = "40px";
-enviar.style.padding = "20px";
-enviar.style.backgroundColor = "black";
-enviar.style.margin = "22px";
-enviar.style.color = "azure"
-enviar.style.fontSize = "36px"
-enviar.style.borderRadius = "9%";
+envio.style.border = "40px";
+envio.style.padding = "20px";
+envio.style.backgroundColor = "black";
+envio.style.margin = "22px";
+envio.style.color = "azure"
+envio.style.fontSize = "36px"
+envio.style.borderRadius = "9%";
 
 reset.style.border = "70px";
 reset.style.padding = "20px";
@@ -65,7 +65,7 @@ if (nombre.value === null | nombre.value === " "){
 if (apellido.value === null | apellido.value === " "){
     corrupto.push("campo vacio rrellenar datos");}
 
-if (numero.value === null | numero.value === "[a-zA-Z]") {
+if (numero.value === null | numero.value === "[a-zA-Z]"){
     corrupto.push("LETRAS INVALIDO");
 
 if (correo.value === null | correo.value ===" ") {
