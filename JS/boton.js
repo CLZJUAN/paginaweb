@@ -52,7 +52,7 @@ reset.style.color ="azure";
 reset.style.fontSize = "36px";
 reset.style.borderRadius = "9%";
 
-faltandatos.style.color = "fuccia";
+faltandatos.style.color = "rose";
 
 
 
