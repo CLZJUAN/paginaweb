@@ -13,15 +13,18 @@
 <h4>FORMULARIO</h4>
 <form action="" id="formularioss">
   <div>
-    <input type="text" name="nombre" id="nombre" maxlength="15" placeholder="  ej juan: ">
-    <input type="text" name="apellido" id="apellido" maxlength="20" placeholder="  ej palma ">
-    <input type="tel" name="numero" id="numero"   placeholder=" ej +11342444">
-    <input type="email" name="correo"id="correo"maxlength="21" placeholder=" ej animal@.com" >
+    <label for="nombre">NOMBRE</label>
+    <input type="text" name="nombre" id="nombre" maxlength="15" placeholder="  ej juan: " class="validador">
+    <label for="apellido">APELLIDO</label>
+    <input type="text" name="apellido" id="apellido" maxlength="20" placeholder="  ej palma " class="validador">
+    <label for="numero">NUMERO</label>
+    <input type="tel" name="numero" id="numero" placeholder=" ej +11342444"class="validador">
+    <label for="correo">CORREO</label>
+    <input type="email" name="correo"id="correo"maxlength="21" placeholder=" ej animal@.com" class="validador" >
 
-   <input type="submit" value="enviar" id="envio">
-   <input type="reset" id="reset">
-      
-     
+    <input type="submit" value="enviar" id="envio">
+    <input type="reset" id="reset">
+
     <div>
     <div id="faltandatos"><div>
 </form>
