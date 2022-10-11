@@ -60,8 +60,13 @@ msj.style.backgroundColor = "red";
 msj.style.margin = "5px";
 msj.style.fontSize = "23px";
 
+
+
+
+
 form.addEventListener("submit", e=>{
     e.preventDefault()
+
 
     if (nombre.value.length <3) {
         alert("muy corto");
@@ -72,6 +77,7 @@ form.addEventListener("submit", e=>{
         alert("muy largo");
         
     }
+
 
     if (apellido.value ==0) {
         alert("no hay datos");
@@ -93,3 +99,4 @@ form.addEventListener("submit", e=>{
 
 
 })
+
