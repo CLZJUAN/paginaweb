@@ -63,6 +63,12 @@ btn8.style.margin = "30px";
 btn8.style.fontSize = "66px";
 btn8.style.backgroundColor = "#0013c4";
 
+btn9.style.color = "white";
+btn9.style.padding= "34px";
+btn9.style.margin = "30px";
+btn9.style.fontSize = "66px";
+btn9.style.backgroundColor = "black";
+
 document.getElementById("btn").addEventListener("click" ,()=>{
     window.open("https://es.wikipedia.org/wiki/Sol")
 });
@@ -97,4 +103,8 @@ document.getElementById("btn7").addEventListener("click" ,()=>{
 
 document.getElementById("btn8").addEventListener("click" ,()=>{
     window.open("https://www.nationalgeographic.com.es/ciencia/neptuno-planeta-azul-y-helado-confines-sistema-solar_18642")
+});
+
+document.getElementById("btn9").addEventListener("click" ,()=>{
+    window.open("https://www.planetario.net/luna/")
 });
