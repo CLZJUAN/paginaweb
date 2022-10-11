@@ -1,13 +1,14 @@
 "use stric"
 
-let = document.getElementById("nombre");
-let = document.getElementById("apellido");
-let = document.getElementById("numero");
-let = document.getElementById("correo");
-let = document.getElementById("msj");
-let = document.getElementById("faltandatos");
-let = document.getElementById("envio");
-let = document.getElementById("reset");
+const nombre = document.getElementById("nombre");
+const apellido = document.getElementById("apellido");
+const numero = document.getElementById("numero");
+const correo = document.getElementById("correo");
+const msj = document.getElementById("msj");
+const faltandatos = document.getElementById("faltandatos");
+const envio = document.getElementById("envio");
+const reset = document.getElementById("reset");
+const form = document.getElementById("form");
 
 nombre.style.color = "white";
 nombre.style.border = "40px";
@@ -62,34 +63,39 @@ msj.style.fontSize = "23px";
 
 
 
-faltandatos.style.color = "white";
+faltandatos.style.color = "cian";
 
 
+form.addEventListener("submit", e=>{
+    e.preventDefault()
 
-let fors = document.getElementById("formularioss");
-fors.addEventListener("submit" ,function(evt){
-evt.preventDefault();
-let corrupto =[];
+    if (nombre.value.length <3) {
+        alert("muy corto");
+        
+    }
 
-if (nombre.value === null | nombre.value === " ") {
-corrupto.push("no valido");
-    
-}
+    if (nombre.value.length >10) {
+        alert("muy largo");
+        
+    }
 
-if (apellido.value === null | apellido.value === " ") {
-corrupto.push("apellido no valido");
-    
-}
+    if (apellido.value ==0) {
+        alert("no hay datos");
+            
+        }
+    if (numero.value ==0) {
+        alert("no valido");
+                
+        }
+    if (correo.value ==0) {
+        alert("no se registro ningun dato");
 
-if (numero.value === null | numero.value === "[a-zA-Z]") {
-    corrupto.push("NO SE ADMITEN LETRAS");
-    
-}
+    if (msj.value ==0) {
+        alert("escribe tu mensaje")
+        
+    }
+        
+    }
 
- if (correo.value === null | correo.value === " " ) {
-    corrupto.push("correo invalido");
-    
- }
-    
-    faltandatos.innerHTML = corrupto.join(", ");
-});
+
+})
