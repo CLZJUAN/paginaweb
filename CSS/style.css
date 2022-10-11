@@ -3,14 +3,22 @@
     margin: 0%;
     box-sizing: border-box;}
 
+    body{
+        display: flex;
+        flex-direction: column;
+        background-color: #ff00ddcf;
+        margin: 10px;
+    }
+
     #ENTRADA{
     background-image: url("../img/FONDO2.jpg");
-    background-color: #f26dd8;
+    background-color: #620a50;
     color: #de6bc7;
     padding: 20px;
     font-size: 36px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
     
     #SOLAR{
@@ -19,6 +27,8 @@
     background-repeat: no-repeat;
     justify-content: center;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
     
     
@@ -31,7 +41,7 @@
  }
     
     article{
-    color: aqua;
+    color: rgb(0, 255, 247);
     font-size: 36px;
     padding: 23px;
     background-color: rgb(68, 81, 99);
@@ -44,7 +54,7 @@
     font-size: 32px;
  }
 
- article:hover{
+    article:hover{
     background-color: rgba(9, 11, 92, 0.977);
     transition-duration: 3s;
     transition-delay: 3,5s;
