@@ -6,18 +6,26 @@
 }
 
 body{
-    background-color: rgb(47, 0, 255);
-    padding: 40px;
+background-color: rgb(65, 8, 100);
+    
 }
 
-#fondo{
-    background-color: aqua;
-}
+
 
 h4{
-    color: black;
-    font-size: 72px;
-   background-color: rgb(242, 255, 0);
+  color: rgb(122, 107, 107);
+  font-size: 72px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: inline-start;
+  padding: 20px;
+}
+
+h4:hover{
+    background-color: cornflowerblue;
+    transition: 13s;   
+    background-color: rgb(12, 109, 157);
+
+
 }
 
 label{
@@ -27,4 +35,12 @@ label{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    background-color: rgb(102, 0, 255);
    font-size: 32px;
+}
+
+.FINAL{
+    padding: 6px;
+    padding-top: 34px;
+    margin: 30px;
+
+
 }
