@@ -7,6 +7,7 @@
 
 body{
 background-color: rgb(65, 8, 100);
+
     
 }
 
@@ -35,12 +36,15 @@ label{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    background-color: rgb(102, 0, 255);
    font-size: 32px;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 .FINAL{
-    padding: 6px;
-    padding-top: 34px;
+    padding: 5px;
     margin: 30px;
+    line-height: 40px;
+
 
 
 }
