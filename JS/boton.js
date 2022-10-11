@@ -5,7 +5,6 @@ const apellido = document.getElementById("apellido");
 const numero = document.getElementById("numero");
 const correo = document.getElementById("correo");
 const msj = document.getElementById("msj");
-const faltandatos = document.getElementById("faltandatos");
 const envio = document.getElementById("envio");
 const reset = document.getElementById("reset");
 const form = document.getElementById("form");
@@ -60,11 +59,6 @@ msj.style.padding = "70px";
 msj.style.backgroundColor = "red";
 msj.style.margin = "5px";
 msj.style.fontSize = "23px";
-
-
-
-faltandatos.style.color = "cian";
-
 
 form.addEventListener("submit", e=>{
     e.preventDefault()
