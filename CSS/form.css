@@ -11,7 +11,8 @@
     color: crimson;
     padding: 23px;
     border-color: deeppink;
-    border: 30PX;
+    border: 30px;
+    text-decoration: none;
 }
 
 #fondo{
@@ -22,4 +23,13 @@ h4{
     color: black;
     font-size: 72px;
    background-color: rgb(242, 255, 0);
+}
+
+label{
+   color: azure;
+   padding: 10px;
+   margin: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: rgb(102, 0, 255);
+   font-size: 32px;
 }
