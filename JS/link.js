@@ -108,3 +108,18 @@ document.getElementById("btn8").addEventListener("click" ,()=>{
 document.getElementById("btn9").addEventListener("click" ,()=>{
     window.open("https://www.planetario.net/luna/")
 });
+
+let btnn = document.getElementById("btn");
+btnn.addEventListener("mouseover" ,function (evt) {
+    evt.target.style.backgroundColor = "red";
+    evt.target.style.color = "yellow"
+     false;
+    
+});
+
+let lot = document.getElementById("btn");
+lot.addEventListener("mouseout" ,function (evt) {
+    evt.target.style.backgroundColor = "blue";
+    true;
+    
+})
